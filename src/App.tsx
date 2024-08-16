@@ -61,7 +61,7 @@ function App() {
     if (button === true) {
       axios
         .get(
-          `http://api.openweathermap.org/geo/1.0/direct?q=${nameSearch}&limit=1&appid=6e510dcdf8fd0c473c4d0a290d0ce37c`
+          `https://api.openweathermap.org/geo/1.0/direct?q=${nameSearch}&limit=1&appid=6e510dcdf8fd0c473c4d0a290d0ce37c`
         )
         .then((res) => {
           setLat(res.data[0].lat);
