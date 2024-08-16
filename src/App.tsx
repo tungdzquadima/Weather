@@ -226,7 +226,13 @@ function App() {
               <Clock />
             </div>
             <div className="head3">
-              <FaGithub />
+              <a
+                href="https://github.com/tungdzquadima/Weather.git"
+                target="_blank"
+                className="head3"
+              >
+                <FaGithub />
+              </a>
             </div>
           </div>
 
@@ -442,7 +448,7 @@ function App() {
               </div>
             </div>
           ) : (
-            <div className="nodata">TÙNG ĐẸP TRAI</div>
+            <div className="nodata">Hello</div>
           )}
         </div>
       </div>
