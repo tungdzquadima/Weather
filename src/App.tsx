@@ -12,7 +12,6 @@ import { CiTempHigh } from "react-icons/ci";
 import { TbWind } from "react-icons/tb";
 import { LiaCloudSolid } from "react-icons/lia";
 import { WiHumidity } from "react-icons/wi";
-import Test1 from "./components/dubaotrongngay";
 const today = new Date();
 const day = today.getDate();
 const month = today.getMonth() + 1; // Tháng bắt đầu từ 0, nên cần +1

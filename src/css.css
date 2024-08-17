@@ -192,3 +192,12 @@
     font-weight: 900;
     font-size: 20px;
 }
+
+@media (max-width: 381px) {
+    .container {
+        padding: 10px;
+    }
+    .bentrai{
+        display: none;
+    }
+}
