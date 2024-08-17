@@ -172,36 +172,36 @@ function App() {
           `https://openweathermap.org/img/wn/${response.data.list[16].weather[0].icon}@2x.png`
         );
         seticon3(
-          `https://openweathermap.org/img/wn/${response.data.list[22].weather[0].icon}@2x.png`
+          `https://openweathermap.org/img/wn/${response.data.list[24].weather[0].icon}@2x.png`
         );
         seticon4(
-          `https://openweathermap.org/img/wn/${response.data.list[30].weather[0].icon}@2x.png`
+          `https://openweathermap.org/img/wn/${response.data.list[32].weather[0].icon}@2x.png`
         );
 
         setmt1(response.data.list[8].weather[0].description);
         setmt2(response.data.list[16].weather[0].description);
-        setmt3(response.data.list[22].weather[0].description);
-        setmt4(response.data.list[30].weather[0].description);
+        setmt3(response.data.list[24].weather[0].description);
+        setmt4(response.data.list[32].weather[0].description);
 
         setx11(response.data.list[8].main.temp);
         setx21(response.data.list[16].main.temp);
-        setx31(response.data.list[22].main.temp);
-        setx41(response.data.list[30].main.temp);
+        setx31(response.data.list[24].main.temp);
+        setx41(response.data.list[32].main.temp);
 
         setx12(response.data.list[8].clouds.all);
         setx22(response.data.list[16].clouds.all);
-        setx32(response.data.list[22].clouds.all);
-        setx42(response.data.list[30].clouds.all);
+        setx32(response.data.list[24].clouds.all);
+        setx42(response.data.list[32].clouds.all);
 
         setx13(response.data.list[8].wind.speed);
         setx23(response.data.list[16].wind.speed);
-        setx33(response.data.list[22].wind.speed);
-        setx43(response.data.list[30].wind.speed);
+        setx33(response.data.list[24].wind.speed);
+        setx43(response.data.list[32].wind.speed);
 
         setx14(response.data.list[8].main.humidity);
         setx24(response.data.list[16].main.humidity);
-        setx34(response.data.list[22].main.humidity);
-        setx44(response.data.list[30].main.humidity);
+        setx34(response.data.list[24].main.humidity);
+        setx44(response.data.list[32].main.humidity);
       })
       .catch((err) => {
         console.log(lat);
